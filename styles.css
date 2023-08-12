@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+Button{
+    background-color: #8A20F4;
+    border-radius: 10px;
+    width: 160px;
+    font-size: 1pc;
+    color: #000000;
+    padding: 2px;
+
+}
+body{
+    background-color: #252525;
+}
+header{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    width: 100%;
+
+}
+nav{
+    display: flex;
+    gap: 50px;
+}
+nav a{
+    color: rgb(231, 231, 209);
+    text-decoration: none;
+    font-size: medium;
+
+}
+.container{
+    height: 600px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.containerF{
+    display: flex;
+    justify-content: space-between;
+}
+.Tex{
+    display: flex;
+    
+}
+#Botton{
+border-bottom:#8A20F4;
+}
+.containerV{
+    height: 600px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    
+}
+.containerF{
+    height: 400px;
+    width: 100%;
+    padding: 10%;
+    
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.container p{
+    width: 650px;
+}
+#Inicio{
+    background-color: rgb(244, 242, 242);
+    
+    background-position: center;
+    background-size: cover;
+}
+#Tienda{
+    background-color: #3BAA6F;
+    
+}
+#Contacto{
+    background-color: #765CE1;
+}
+#Durasno{
+    background-color: #DC777B;
+}
+#Blanco{
+    background-color: #ffffff;
+}
+
+
+.box{
+    display: flex;
+
+    place-items: center;
+    padding: 130px;
+    width: 60pc;
+    
+    margin: 20%;
+    
+}
+
+.box2{
+    display: grid;
+    background-color: rgb(244, 244, 227);
+    place-items: end;
+    padding: 60px;
+    width: 100pc;
+    box-shadow: 2px 2px 30px black;
+    
+
+    
+}
+.box3{
+    
+    background-color: rgb(255, 255, 255);
+    place-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    width: 80pc;
+    height: 30pc;
+    
+    
+    
+    
+
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(244, 244, 227);
+    align-items: center;
+    
+    padding: 10px;
+    width: 80pc;
+    box-shadow: 2px 2px 30px black;
+    
+
+    
+}
+.Texto{
+    color: #000000;
+    width:30%;
+
+}
+
+h2{
+    font-size: larger;
+}
+
+.Etiqueta{
+    background-color: #D9D9D9;
+    border: 10%;
+    padding: 100px;
+    width: 20pc;
+    
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 0;
+    height:440px;
+    right: 90px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+
+    
+    
+
+}
+.Etiqueta3{
+    background-color: #D9D9D9;
+    border: 10%;
+    padding: 100px;
+    width: 20pc;
+    
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 0;
+    height:440px;
+    right: 90px;
+    display: flex;
+    justify-content: center;
+    
+}
+.Etiqueta2{
+    background-color: #D9D9D9;
+    border: 10%;
+    padding: 100px;
+    width: 20pc;
+    
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    top: 0;
+    height:440px;
+    left: 90px;
+    display: flex;
+    justify-content: center;
+}
+.Perfil{
+    width: 80%;
+}
+
+
+
+
+.Red{
+    height: 30px;
+    border-bottom: 0.1pc solid rgb(255, 255, 255)
+}
+.Red:hover{
+    border-bottom: 0.2pc solid rgb(255, 255, 255)
+    
+}
+
+.Menu{
+    height: 30px;
+    border-bottom: 0.1pc solid rgb(255, 255, 255)
+}
+.Menu:hover{
+    border-bottom: 0.2pc solid rgb(255, 255, 255)
+    
+}
+.Bio{
+    top: 20%;
+    
+}
+
+
+.Imagen1{
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+right: 150%;
+
+}
+.Image2{
+position:absolute;
+z-index: 3;
+
+
+width: 700px;
+height: 269px;
+top: 115px;
+left: 320px;
+
+
+    
+}
+.Image1{
+    position: absolute;
+    z-index: 0;
+    top: 50px;
+    left: 40%;
+    width: 100;
+
+}
+.im img{
+    width: 350px;
+    margin: 50px;
+    position: relative;
+    z-index: 500px;
+    background-color: rgba(255, 255, 255, 0,3);
+    box-shadow:1px 1px 50px #252525;
+
+
+}
+.Ama{
+    border-radius: 50%;
+}
+.Tex{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.Footer h2{
+    font-size: medium;
+}
+
+.Footer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    background-color: #ffffff;
+    width: 100%;
+    color: #000000;
+    
+    
+}
+.linea{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Footer nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: medium;
+
+}
+.Fin{
+    height: 30px;
+    border-bottom: 0.1pc solid rgb(0, 0, 0)
+}
+.Fin:hover{
+    border-bottom: 0.2pc solid rgb(0, 0, 0)
+    
+}
+
+
